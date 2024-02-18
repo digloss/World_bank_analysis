@@ -21,7 +21,6 @@ from matplotlib import pyplot as plt
 from matplotlib.pyplot import savefig
 from matplotlib import style
 matplotlib.style.use('seaborn-v0_8')
-import statsmodels.api as sm
 gdp_df = pd.read_csv('info.csv')
 print(gdp_df.head())
 full_countries_list = gdp_df.ISO3.unique()
